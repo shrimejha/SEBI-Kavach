@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+httpx
+imagehash
+pillow
+python-telegram-bot
+python-dotenv
+supabase
+python-jose
+cryptography
+google-genai

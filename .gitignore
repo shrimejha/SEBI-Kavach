@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# PRIVATE DIRECTORIES & USER UI DESIGN ASSETS (CRITICAL)
+# ─────────────────────────────────────────────────────────────────────────────
+design/
+test_media/
+Trial/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ENVIRONMENT VARIABLES & SECRETS (CRITICAL)
+# ─────────────────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+*.pfx
+*.p12
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PYTHON & TESTING ARTIFACTS
+# ─────────────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+temp_voice_*.ogg
+temp_voice_clip.ogg
+temp_*.py
+pytest_output*.txt
+test-results/
+playwright-report/
+blob-report/
+
+# ─────────────────────────────────────────────────────────────────────────────
+# NODE & FRONTEND BUILD OUTPUTS
+# ─────────────────────────────────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OPERATING SYSTEM & IDE FILES
+# ─────────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+.gemini/
